@@ -16,7 +16,7 @@
 #
 
 # Inherit common CM stuff
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/aokp/configs/common_full_phone.mk)
 
 # Inherit device configurations
 $(call inherit-product, device/sony/taoshan/device.mk)
@@ -27,7 +27,7 @@ TARGET_SCREEN_WIDTH := 480
 
 # Device identifications
 PRODUCT_DEVICE := taoshan
-PRODUCT_NAME := lineage_taoshan
+PRODUCT_NAME := aokp_taoshan
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_MODEL := Xperia L
